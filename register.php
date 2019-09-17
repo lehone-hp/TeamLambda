@@ -53,7 +53,7 @@ if (isset($_POST['register'])) {
     </header>
     <section>
         <form class="register-form" action="register.php" method="post">
-            <h2 class="register-form__welcome-text">Create an acount</h2>
+            <h2 class="register-form__welcome-text">Create an account</h2>
             <input type="text" placeholder="First Name" name="firstname">
             <input type="text" placeholder="Last Name" name="lastname" >
             <input type="email" placeholder="Email Address" name="email">
