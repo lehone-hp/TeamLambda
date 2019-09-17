@@ -33,7 +33,7 @@ img {
     margin: 0;
 }
 .login-form__welcome-text {
-    margin: 40px auto;
+    margin: 40px auto 0;
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
@@ -107,4 +107,8 @@ img {
     .login-form {
         width: 90%;
     }
+}
+
+.error_message {
+    color: #ff0000;
 }
