@@ -1,0 +1,15 @@
+{
+  "users":[
+  {
+    "firstname":"Lenya",
+    "lastname":"Hope",
+    "email":"lehone4hope@gmail.com",
+    "password":"$2y$10$dArUCDpWDjz6nUW0UqAqFeepDSONnxcatY6vIxlOquCmc.5infb4a",
+  },
+  {
+    "firstname":"Another",
+    "lastname":"User",
+    "email":"usermail@gmail.com",
+    "password":"$2y$10$HQAFOTDz26E8aj5eGdjUgOhGY6UdcjSIljIMVYF7StJrWtWsq3Edi",
+  }]
+}
