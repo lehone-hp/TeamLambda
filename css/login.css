@@ -6,10 +6,9 @@ img {
     width: 150px;
 }
 
-form {
+.login-form {
     text-align: center;
     width: 30%;
-    height:450px;
     position:relative; 
     left:0;
     right:0;
@@ -20,7 +19,7 @@ form {
     border-radius: 10px 10px 0 0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0 , 0.25);
     box-sizing: border-box;
-    
+    padding: 0 0 20px 0;
     /*this to solve "the content will not be cut when the window is smaller than the content": */
     max-width:100%;
     max-height:100%;
@@ -33,7 +32,7 @@ form {
     height: 12px;
     margin: 0;
 }
-.form__welcome-text {
+.login-form__welcome-text {
     margin: 40px auto;
     font-weight: bold;
     font-size: 24px;
@@ -41,7 +40,7 @@ form {
     color: #385072;
 }
 
-form input {
+.login-form input {
     border: 2px solid #E5E3E3;
     box-sizing: border-box;
     height: 45px;
@@ -52,7 +51,7 @@ form input {
     color: rgba(56, 80, 114, 0.8); 
 }
 
-form button {
+.login-form button {
     width: 90%;
     padding: 5px;
     box-sizing: border-box;
@@ -65,7 +64,7 @@ form button {
     margin: 10px 0;
 }
 
-form .forgot-password {
+.login-form .forgot-password {
     color: rgba(56, 80, 114, 0.8);
     text-decoration: none;
     display: block;
@@ -80,32 +79,32 @@ form .forgot-password {
     margin: 15px auto;
 }
 
-form small {
+.login-form small {
     color:rgba(56, 77, 106, 0.8);
     font-size: 0.8em;
     margin: 15px 0;
 }
 
-form small a {
+.login-form small a {
     color:rgba(56, 77, 106, 0.8);
     font-weight: bold; 
 }
 
 
 @media screen and (max-width: 944px){
-    form {
+    .login-form {
         width: 50%;
     }
 }
 
 @media screen and (max-width: 600px){
-    form {
+    .login-form {
         width: 70%;
     }
 }
 
 @media screen and (max-width: 600px){
-    form {
+    .login-form {
         width: 90%;
     }
 }
